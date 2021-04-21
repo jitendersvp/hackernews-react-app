@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.newsItem{
+    padding: 20px;
+}
+.newsItem:hover {
+  background-color: rgb(175, 170, 170);
+  cursor: pointer;
+}
+#news {
+  padding: 20px 60px;
+  text-align: left;
+}
+a{
+    color: black;
+}
+#singleComment{
+  padding: 20px 100px;
+  margin: 2px;
+}
+input[type='button'], .backSearch{
+  padding: 8px;
+  margin: 5px 0;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+}
+.backSearch{
+  margin: 10px 100px;
+}
+#news h1{
+  background-color: rgb(155, 152, 152);
+  color : white;
+  padding: 5px;
+  text-align: left;
+}
+@media(max-width:400px){
+  #singleComment{
+    padding: 20px;
+    margin: 2px;
+  }
+  .newsItem{
+    padding: 10px 0px;
+  }
+}
